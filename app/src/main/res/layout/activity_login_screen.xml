@@ -36,7 +36,7 @@
         app:layout_constraintTop_toBottomOf="@+id/LoginAppTitle" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/EnterUserEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -50,7 +50,7 @@
         app:layout_constraintTop_toBottomOf="@+id/LoginTitle" />
 
     <EditText
-        android:id="@+id/editTextPassword"
+        android:id="@+id/EnterPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -61,7 +61,7 @@
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+        app:layout_constraintTop_toBottomOf="@+id/EnterUserEmail" />
 
     <Button
         android:id="@+id/LoginButton"
@@ -74,7 +74,7 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/EnterPassword" />
 
     <Button
         android:id="@+id/RegisterButton"
