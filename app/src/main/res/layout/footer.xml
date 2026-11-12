@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:alignmentMode="alignBounds"
+    android:layout_alignParentBottom="true"
+    android:columnCount="4"
+    android:rowCount="1">
+
+    <ImageButton
+        android:id="@+id/home_btn"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        app:srcCompat="@android:drawable/btn_star" />
+
+    <ImageButton
+        android:id="@+id/search_btn"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1"
+        app:srcCompat="@android:drawable/ic_menu_search" />
+
+    <ImageButton
+        android:id="@+id/social_btn"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="2"
+        app:srcCompat="@android:drawable/sym_action_chat" />
+
+    <ImageButton
+        android:id="@+id/settings_btn"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="3"
+        app:srcCompat="@android:drawable/stat_notify_sdcard_prepare" />
+</GridLayout>
